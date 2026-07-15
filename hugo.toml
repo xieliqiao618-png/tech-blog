@@ -1,0 +1,13 @@
+baseURL = "https://xieliqiao618-png.github.io/tech-blog/"
+title = "Tech Blog"
+languageCode = "zh-CN"
+theme = "paper"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  description = "AI / 前端开发技术博客"
+  author = "xieliqiao618-png"
+
+[frontmatter]
+  date = ["date", ":filename"]
